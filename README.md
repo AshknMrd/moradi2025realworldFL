@@ -1,0 +1,2 @@
+# moradi2025realworldFL
+This work proposes a deep learning–based real-world federated learning solution for  prostate cancer detection on biparametric MRI.
