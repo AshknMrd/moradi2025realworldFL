@@ -1,0 +1,4 @@
+git+https://github.com/FabianIsensee/hiddenlayer.git
+nvflare==2.5.0
+picai_eval
+report_guided_annotation
