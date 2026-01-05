@@ -4,7 +4,7 @@
 In this work, we investigate the real-world implementation of Federated Learning for MRI-based prostate cancer detection and compare the results with simulated implementations using **[NVIDIA FLARE](https://nvflare.readthedocs.io/en/latest/)** and **[Flower](https://flower.ai/)**. The experiment involves two clients: the **[Norwegian University of Science and Technology (NTNU)](https://www.ntnu.edu/)** in Norway  and **[Ziekenhuisgroep Twente (ZGT)](https://www.zgt.nl/)** in the Netherlands. The real-world FL implementation is conducted using the **[Rhino Federated Computing](https://www.rhinofcp.com/)** framework, which was developed on top of **[NVIDIA FLARE](https://nvflare.readthedocs.io/en/latest/)**.
 
 <div align="center">
-  <img src="Figs/topology.png" width="800" alt="Description">
+  <img src="Figs/topology.png" width="700" alt="Description">
   <br>
   <em>Figure 1: Comparison of real-world and simulated federated learning topologies.</em>
 </div>
@@ -14,26 +14,26 @@ The success of computer-assisted methods based on deep learning for the early de
 
 #### Used Datasets:
 <div align="center">
-  <img src="Figs/datasets.png" width="600" alt="Description">
+  <img src="Figs/datasets.png" width="500" alt="Description">
   <br>
   <em>Table 1: Dataset distribution for csPCa detection across different clients.</em>
 </div>
 
 #### Detection Performance:
 <div align="center">
-  <img src="Figs/inhouse.png" width="600" alt="Description">
+  <img src="Figs/inhouse.png" width="500" alt="Description">
   <br>
   <em>Table 2: Performance metrics and 95% confidence interval for the ensemble of the 5-fold cross-validated best models, evaluated on the in-house test set.</em>
 </div>
 
 <div align="center">
-  <img src="Figs/umcg.png" width="600" alt="Description">
+  <img src="Figs/umcg.png" width="500" alt="Description">
   <br>
   <em>Table 3: Performance metrics and 95% confidence interval for the ensemble of the 5-fold cross-validated best models, evaluated on the UMCG test set.</em>
 </div>
 
 <div align="center">
-  <img src="Figs/test_plots.png" width="900" alt="Description">
+  <img src="Figs/test_plots.png" width="850" alt="Description">
   <br>
   <em>Figure 2: Comparison of the ensembled PI-CAI scores for trained models evaluated on various test sets. Dashed lines indicate the round at which the average validation PI-CAI score across clients and folds peaked for each curve.</em>
 </div>
@@ -41,14 +41,14 @@ The success of computer-assisted methods based on deep learning for the early de
 #### Execution Time Analysis:
 
 <div align="center">
-  <img src="Figs/time_analysis.png" width="900" alt="Description">
+  <img src="Figs/time_analysis.png" width="850" alt="Description">
   <br>
   <em>Figure 3: Time analysis per training round for simulated FL based on Flower (Sim-FLFLWR), simulated FL based on NVFlare (Sim-FL-NVFR), and real-world FL based on Rhino (RW-FL).</em>
 </div>
 
 #### Qualitative Performance:
 <div align="center">
-  <img src="Figs/qualitative.png" width="900" alt="Description">
+  <img src="Figs/qualitative.png" width="850" alt="Description">
   <br>
   <em>Figure 4: Qualitative performance comparison of predictions from different models on test patients from the in-house test set. Each row shows the lesions predicted by different models for a single test case.</em>
 </div>
